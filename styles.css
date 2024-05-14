@@ -12,14 +12,13 @@
 .section-head {
   margin-bottom: 35px;
 }
-
 .plan-style {
   margin: auto;
   text-align: center;
   background-color: #fff;
   position: relative;
   border-radius: 30px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;  
 }
 .plan-style .bg-blue {
   background: linear-gradient(to right, #0097e6, #0652dd);
@@ -73,7 +72,8 @@
 
   .plan-style .blue-bg-img{
     background-image: url("img.jpg");
-    background-size: 100%;
+    background-size: 50%;
+    background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: overlay;
     background-color: rgba(255,255,255,0.85);
@@ -184,7 +184,8 @@
   }
 
   .plan-style.active{
-    box-shadow: 0px 0px 30px -10px #f23600;
+    box-shadow: 0px 0px 30px -10px #eedfdb;
+    transform: scale(1.08);
   }
 
   .plan-style.orange-shadow:hover{
@@ -196,3 +197,4 @@
     box-shadow: 0px 0px 30px 11px #19e757;
     border: 2px solid transparent;
   }
+  
